@@ -3,7 +3,10 @@
   padding-bottom: 150px; }
   .block4__img {
     max-width: 100%;
-    margin-left: -34px; }
+    margin-left: -34px;
+    display: none; }
+  .block4__img:first-child {
+    display: block; }
   .block4__title {
     color: #575c5f;
     font-family: 'Myriad Pro', sans-serif;
