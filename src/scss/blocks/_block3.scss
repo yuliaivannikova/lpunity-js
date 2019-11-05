@@ -1,0 +1,64 @@
+.block3 {
+    position: relative;
+
+    background-color: #f8f9fb;
+
+    &__img {
+        width: 100%;
+
+    }
+
+    &__plate {
+
+        width: 425px;
+        height: 197px;
+        background-color: white;
+        box-shadow: 0 30px 80px rgba(0, 0, 0, 0.1);
+        font-family: 'Myriad Pro';
+        font-size: 18px;
+        font-weight: 400;
+        position: relative;
+        z-index: 3;
+        bottom: 75px;
+        margin-right: 20px;
+
+    }
+
+    &__desc {
+        color: #575c5f;
+        font-family: 'Myriad Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        padding-left: 68px;
+        padding-right: 10%;
+        padding-top: 10%;
+    }
+
+
+    @media screen and (max-width: 991px) {}
+
+    @media screen and (max-width: 575px) {
+
+        .block3__container {
+            justify-content: center;
+        }
+
+        .block3__plate {
+            height: 120px;
+            width: 100%;
+            bottom: 40px;
+            margin-right: 0;
+        }
+
+        .block3__desc {
+            padding: 5px;
+        }
+
+        .block3__slider {
+            padding: 5px;
+        }
+
+
+    }
+}

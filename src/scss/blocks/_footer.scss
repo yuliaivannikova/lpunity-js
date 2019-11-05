@@ -1,0 +1,58 @@
+.footer {
+    padding-top: 114px;
+
+    &__nav {
+        padding-top: 30px;
+        padding-bottom: 240px;
+        border-top: 1px solid gainsboro;
+
+
+    }
+
+    &__map {
+        padding-left: 80px;
+
+        &--img {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .footer__map {
+            padding-left: 0;
+
+        }
+
+    }
+
+    @media screen and (max-width: 575px) {
+        .footer__map {
+            padding-left: 0;
+
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+
+        .footer__nav {
+            padding-bottom: 20px;
+
+        }
+
+        .footer__map {
+            padding-left: 0;
+            padding-top: 50px;
+        }
+
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    .footer {
+        padding-top: 0;
+
+    }
+}

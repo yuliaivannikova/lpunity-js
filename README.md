@@ -1,1 +1,1 @@
-# lpunity-js
+# lpunity

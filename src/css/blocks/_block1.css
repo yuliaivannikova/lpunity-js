@@ -1,0 +1,82 @@
+.block1 {
+  background-image: url(../img/img.png);
+  background-position: top center;
+  background-size: cover;
+  padding-top: 307px;
+  position: relative; }
+  .block1__header {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .block1__title {
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.41);
+    color: white;
+    font-family: 'Myriad Pro';
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 32px;
+    margin-bottom: 11px;
+    position: relative;
+    padding-left: 35px; }
+  .block1__text {
+    color: white;
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    padding-bottom: 60px;
+    padding-left: 35px; }
+  .block1__plate {
+    border-top: 5px solid #b98b36;
+    width: 555px;
+    height: 124px;
+    background-color: white;
+    -webkit-box-shadow: 0 30px 80px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.1);
+    padding-left: 68px;
+    padding-right: 10%;
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    z-index: 3;
+    top: 62px; }
+  .block1__desc {
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #575c5f; }
+  .block1__link {
+    color: #b98b36;
+    text-transform: uppercase; }
+  @media screen and (max-width: 991px) {
+    .block1 .block1__plate {
+      bottom: 10%; } }
+
+.block1:after {
+  content: '';
+  background-color: #F8F9FB;
+  height: 62px;
+  width: 100%;
+  position: absolute; }
+
+@media screen and (max-width: 767px) {
+  .block1__plate {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 350px;
+    height: 124px; }
+  .block1__header {
+    padding-left: 15px; }
+  .block1__title {
+    font-size: 60px; } }
+
+@media screen and (max-width: 575px) {
+  .block1__plate {
+    width: 100%; }
+  .block1__text {
+    word-spacing: 1px;
+    letter-spacing: 1px; } }

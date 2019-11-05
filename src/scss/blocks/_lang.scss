@@ -1,0 +1,31 @@
+.lang {
+
+    &__en,
+    &__ru {
+        color: #a29c9b;
+        font-family: 'Myriad Pro';
+        font-weight: 600;
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    &__sl {
+        color: #a29c9b;
+        font-family: 'Myriad Pro';
+        font-weight: 600;
+
+    }
+
+
+
+
+    &__ru:hover {
+        color: #b98b36;
+        transition: ease 0.8s;
+    }
+
+    &__en:hover {
+        color: #b98b36;
+        transition: ease 0.8s;
+    }
+}

@@ -1,0 +1,39 @@
+.block5 {
+  text-align: center; }
+  .block5__text {
+    color: #575c5f;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 46px; }
+  .block5__subtitle {
+    color: #575c5f;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 29px; }
+  .block5__title {
+    color: #575c5f;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    line-height: 40px;
+    padding-bottom: 130px; }
+    .block5__title--bold {
+      font-weight: 700; }
+  .block5__img {
+    max-width: 100%; }
+  @media screen and (max-width: 991px) {
+    .block5 .block5__title {
+      padding-bottom: 30px; }
+    .block5 .block5__text {
+      padding-top: 20px;
+      text-align: left; } }
+  @media screen and (max-width: 575px) {
+    .block5 .block5__title {
+      padding-bottom: 30px;
+      font-size: 20px;
+      line-height: 27px; } }

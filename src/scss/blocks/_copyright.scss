@@ -1,0 +1,31 @@
+.copyright {
+    margin-right: 3px;
+
+    &__text {
+        color: #a29c9b;
+        font-family: 'Myriad Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    &__icon {
+
+        color: white;
+        font-size: 25px;
+
+    }
+
+    &__icon-form {
+        margin-left: 20px;
+        width: 44px;
+        height: 44px;
+        background-color: #b98b36;
+    }
+
+    &__top {
+        margin-top: -20px;
+    }
+
+
+}

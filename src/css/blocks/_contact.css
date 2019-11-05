@@ -1,0 +1,35 @@
+.contact {
+  padding-top: 33px;
+  padding-bottom: 113px; }
+  .contact__subject {
+    color: #a29c9b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 26px; }
+    .contact__subject--email {
+      padding-top: 19px; }
+  .contact__link {
+    color: #575c5f;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px; }
+  .contact__tel {
+    color: #575c5f;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    white-space: nowrap; }
+  .contact__number {
+    padding-bottom: 26px; }
+
+@media screen and (max-width: 991px) {
+  .contact {
+    padding-bottom: 15px;
+    padding-top: 0; } }
+
+@media screen and (max-width: 575px) {
+  .contact__tel {
+    font-size: 20px; } }
