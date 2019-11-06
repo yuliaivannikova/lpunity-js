@@ -36,8 +36,14 @@
 
     }
 
+
     &__img {
         max-width: 100%;
+        display: none;
+    }
+
+    &__img:first-child {
+        display: block
     }
 
     @media screen and (max-width: 991px) {
@@ -66,4 +72,10 @@
 
     }
 
+}
+
+.my-slider {
+
+    opacity: 1;
+    transform: scale(1.08);
 }

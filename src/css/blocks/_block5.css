@@ -25,7 +25,10 @@
     .block5__title--bold {
       font-weight: 700; }
   .block5__img {
-    max-width: 100%; }
+    max-width: 100%;
+    display: none; }
+  .block5__img:first-child {
+    display: block; }
   @media screen and (max-width: 991px) {
     .block5 .block5__title {
       padding-bottom: 30px; }
@@ -37,3 +40,9 @@
       padding-bottom: 30px;
       font-size: 20px;
       line-height: 27px; } }
+
+.my-slider {
+  opacity: 1;
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08); }

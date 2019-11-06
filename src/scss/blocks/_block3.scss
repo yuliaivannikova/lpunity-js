@@ -5,6 +5,11 @@
 
     &__img {
         width: 100%;
+        display: none;
+    }
+
+    &__img:first-child {
+        display: block;
 
     }
 
@@ -33,6 +38,11 @@
         padding-left: 68px;
         padding-right: 10%;
         padding-top: 10%;
+        display: none;
+    }
+
+    &__desc:first-child {
+        display: block;
     }
 
 
