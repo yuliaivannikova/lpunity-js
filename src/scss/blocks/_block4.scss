@@ -174,3 +174,18 @@
     position: absolute;
 
 }
+
+
+.prev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.next {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    cursor: pointer;
+}

@@ -3668,6 +3668,18 @@ html {
   width: 100%;
   position: absolute; }
 
+.prev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer; }
+
+.next {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  cursor: pointer; }
+
 .block5 {
   text-align: center; }
   .block5__text {
@@ -3710,13 +3722,6 @@ html {
       padding-bottom: 30px;
       font-size: 20px;
       line-height: 27px; } }
-
-.my-slider {
-  color: #e67e22;
-  opacity: 1;
-  -webkit-transform: scale(1.08);
-  -ms-transform: scale(1.08);
-  transform: scale(1.08); }
 
 .block6 {
   padding-top: 138px;
@@ -3905,7 +3910,7 @@ html {
     margin-top: -20px; }
 
 .slider {
-  background-color: #F8F9FB;
+  background-color: #f8f9fb;
   padding-top: 22px;
   padding-bottom: 22px;
   padding-left: 57px;
@@ -3919,10 +3924,19 @@ html {
     align-items: center; }
   .slider__link {
     color: #a29c9b;
-    font-family: 'Myriad Pro', sans-serif;
+    font-family: "Myriad Pro", sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 20px; }
+  .slider__dots {
+    color: #a29c9b;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
   .slider__link:hover {
     position: relative; }
   .slider__link:hover:before {
@@ -3931,7 +3945,7 @@ html {
     -o-transition: ease 1s;
     transition: ease 1s; }
   .slider__link:before {
-    content: '';
+    content: "";
     display: block;
     width: 1px;
     position: absolute;
@@ -3948,9 +3962,9 @@ html {
     font-size: 15px; }
   .slider__link:hover {
     color: #575c5f;
-    -webkit-transition: ease .3s;
-    -o-transition: ease .3s;
-    transition: ease .3s;
+    -webkit-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    transition: ease 0.3s;
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
@@ -3967,6 +3981,18 @@ html {
   .slider__link {
     padding-right: 7px;
     padding-left: 7px; } }
+
+.slick-slide:not(.slick-current) > img {
+  -webkit-transform: scaleY(0.9);
+  -ms-transform: scaleY(0.9);
+  transform: scaleY(0.9);
+  z-index: -1;
+  position: absolute; }
+
+.slick-current > img {
+  -webkit-transition: cubic-bezier(0.77, 0, 0.18, 1) 0.8s;
+  -o-transition: cubic-bezier(0.77, 0, 0.18, 1) 0.8s;
+  transition: cubic-bezier(0.77, 0, 0.18, 1) 0.8s; }
 
 body {
   /* background-image: url(../img/bg.png);
