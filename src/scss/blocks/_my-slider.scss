@@ -1,0 +1,103 @@
+.iconSlider {
+    color: #575c5f;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+
+    &:after {
+        content: '';
+        width: 97px;
+        height: 1px;
+        display: block;
+        opacity: 0.2;
+        background-color: #575c5f;
+        position: absolute;
+        left: 74px;
+    }
+
+    &:hover,
+    &:focus {
+        color: #C0964A;
+
+    }
+}
+
+.iconSlider1 {
+    margin-left: -70px;
+    color: #575c5f;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:after {
+        content: '';
+        width: 97px;
+        height: 1px;
+        display: block;
+        opacity: 0.2;
+        background-color: #575c5f;
+        position: absolute;
+        right: 76px;
+    }
+
+    &:hover,
+    &:focus {
+
+        color: #C0964A;
+    }
+}
+
+.slick-next {
+    display: flex;
+}
+
+.material-icons {
+    color: #575c5f;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+
+.slider__dots {
+    color: #a29c9b;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    display: flex;
+    position: absolute;
+    top: -12%;
+    left: 46%;
+
+    &.slick-active button:before {
+        border-right: 1px solid #b98b36;
+        color: #575c5f;
+    }
+
+}
+
+button[role=tab] {
+
+
+    color: #D1D2D3;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &:active,
+    &:focus,
+    &:hover {
+        border-right: 1px solid #b98b36;
+        color: #575c5f;
+    }
+
+}
+
+.slider__dots li.slick-active button {
+    border-right: 1px solid #b98b36;
+    color: #575c5f;
+}

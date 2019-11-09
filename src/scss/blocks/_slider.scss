@@ -18,14 +18,7 @@
         line-height: 20px;
     }
 
-    &__dots {
-        color: #a29c9b;
-        font-family: "Myriad Pro", sans-serif;
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 20px;
-        display: flex;
-    }
+
 
     &__link:hover {
         position: relative;
@@ -88,8 +81,14 @@
     transform: scaleY(0.9);
     z-index: -1;
     position: absolute;
-    transition: cubic-bezier(.77, 0, .18, 1) 0.8s;
+
 
 }
 
-.slick-current>img {}
+.slick-current>img {
+    transition: cubic-bezier(.77, 0, .18, 1) 0.8s;
+}
+
+.block7__img {
+    max-width: 100%;
+}

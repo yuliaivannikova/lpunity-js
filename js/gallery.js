@@ -12,6 +12,8 @@ window.onload = function () {
         slider.next();
     }
 
+
+
     var images2 = document.querySelectorAll('.block3__img');
 
     var slider2 = new Slider(images2);
@@ -24,12 +26,8 @@ window.onload = function () {
         slider2.next();
     }
 
-    var images3 = document.querySelectorAll('.block5__img');
 
-    var slider3 = new Slider(images3);
-    setInterval(function () {
-        slider3.next();
-    }, 2000)
+
 
 }
 
@@ -56,7 +54,3 @@ function Slider(images) {
 
     }
 }
-
-$(function () {
-
-});

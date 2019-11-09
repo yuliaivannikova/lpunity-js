@@ -1,6 +1,5 @@
-$(document).ready(function() {
+$(document).ready(function () {
   $(".single-item").slick();
-
   $(".my-slider").slick({
     centerMode: true,
     centerPadding: "98px",
@@ -10,13 +9,10 @@ $(document).ready(function() {
     arrows: true,
     dots: true,
     dotsClass: "slider__dots",
-    nextArrow:
-      '<button > <img src="./img/img12.png" alt="img" class="next"></button>',
-    prevArrow:
-      '<button > <img src="./img/img13.png" alt="img" class="prev"></button>',
+    nextArrow: '<i class="material-icons slick-next"> <div class="iconSlider1">Вперед</div> arrow_forward</i>',
+    prevArrow: '<i class="material-icons slick-prev"> arrow_back <div class="iconSlider">Назад</div></i>',
     pauseOnHover: true,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 768,
         settings: {
           arrows: false,
@@ -36,6 +32,7 @@ $(document).ready(function() {
       }
     ]
   });
+
 
   //   $(".my-slider").css("border", "solid 1px red");
 });

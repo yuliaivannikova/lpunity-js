@@ -40,9 +40,3 @@
       padding-bottom: 30px;
       font-size: 20px;
       line-height: 27px; } }
-
-.my-slider {
-  opacity: 1;
-  -webkit-transform: scale(1.08);
-  -ms-transform: scale(1.08);
-  transform: scale(1.08); }
