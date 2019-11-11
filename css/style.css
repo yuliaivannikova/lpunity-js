@@ -3606,7 +3606,8 @@ html {
     right: 30px;
     opacity: 0.2;
     position: absolute;
-    bottom: -5px; }
+    bottom: -5px;
+    cursor: none; }
   .slider1-next.slick-arrow:hover, .slider1-next.slick-arrow:focus {
     color: #717678; }
 
