@@ -33,3 +33,25 @@ button:active,
 button:hover {
     outline: 0 none !important;
 }
+
+
+i {
+    cursor: pointer;
+}
+
+.map {
+    height: 417px;
+
+    @media screen and (max-width: 991px) {
+        & {
+            height: 353px;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        & {
+            height: 250px;
+        }
+    }
+
+}

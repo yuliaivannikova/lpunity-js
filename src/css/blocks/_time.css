@@ -24,6 +24,7 @@
     margin-left: 20px;
     margin-top: -4px; }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 767px) {
   .time {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px;
+    margin-right: 80px; } }

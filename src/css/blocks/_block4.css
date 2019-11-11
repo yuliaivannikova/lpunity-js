@@ -66,7 +66,8 @@
   @media screen and (max-width: 991px) {
     .block4 .block4__img {
       position: relative;
-      top: 0; }
+      top: 0;
+      margin-left: -18px; }
     .block4 .block4__desc {
       padding-left: 20px;
       padding-top: 70px;
@@ -99,7 +100,9 @@
 
 @media screen and (max-width: 991px) {
   .block4 {
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+  .block4:before {
+    display: none; } }
 
 .block4:before {
   content: '';

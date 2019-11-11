@@ -54,16 +54,14 @@
 
         <div class="header__bg">
             <div class="container">
-
                 <div class="header__nav d-flex justify-content-between">
-                    <div class="nav d-lg-block ">
-
-                        <label for="burger" class="nav__burger d-lg-none">
+                    <div class="nav">
+                        <div class="nav__burger d-lg-none">
                             <i class="fas fa-bars nav__icon"></i>
+                        </div>
 
-                        </label>
-                        <ul class="nav__list list">
-                            <li class="nav__item">
+                        <ul class="nav__list list  ">
+                            <li class="nav__item ">
                                 <a href="index.html#block1" class="nav__link nav__link">Главная</a></li>
                             <li class="nav__item">
                                 <a href="index.html#block2" class="nav__link">О компании</a></li>
@@ -79,11 +77,38 @@
                                 <a href="index.html#footer" class="nav__link">Контакты</a></li>
                         </ul>
                     </div>
-                    <div class="header__lang lang d-flex">
-                        <div class="lang__en"> <a href="#" class="lang__en">En</a> </div>
-                        <p class="lang__sl">/</p>
-                        <div class="lang__ru"><a href="#" class="lang__ru">Ru</a></div>
+                    <div class=" d-none  d-md-block .d-xl-none">
+                        <div class="header__lang lang d-flex ">
+                            <div class="lang__en"> <a href="#" class="lang__en">En</a> </div>
+                            <p class="lang__sl">/</p>
+                            <div class="lang__ru"><a href="#" class="lang__ru">Ru</a></div>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="nav__bar d-lg-none">
+
+                    <ul class="nav__barlist">
+                        <div class="nav__close">
+                            <i class="fas fa-times nav__icon"></i>
+
+                        </div>
+                        <li class="nav__baritem">
+                            <a href="index.html#block1" class="nav__barlink ">Главная</a></li>
+                        <li class="nav__baritem">
+                            <a href="index.html#block2" class="nav__barlink">О компании</a></li>
+                        <li class="nav__baritem">
+                            <a href="index.html#block3" class="nav__barlink">Недвижимость</a></li>
+                        <li class="nav__baritem">
+                            <a href="index.html#block4" class="nav__barlink">Проекты</a></li>
+                        <li class="nav__baritem">
+                            <a href="index.html#block5" class="nav__barlink">Жизнь на Кипре</a></li>
+                        <li class="nav__baritem">
+                            <a href="index.html#block6" class="nav__barlink">Новости</a></li>
+                        <li class="nav__baritem">
+                            <a href="index.html#footer" class="nav__barlink">Контакты</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -140,12 +165,34 @@
                 </div>
             </section>
             <section class="block3 " id="block3">
-                <div class="container block3__container d-flex flex-wrap justify-content-end">
-                    <div class="block3__gallery">
-                        <img src="./img/img5.png" alt="img" class="block3__img">
-                        <img src="./img/img5.1.png" alt="img" class="block3__img">
-                        <img src="./img/img5.2.png" alt="img" class="block3__img">
+                <div class="container">
+                    <div class="block3__gallery d-flex">
+                        <div class="block3__imgSlide  d-flex flex-wrap">
+                            <img src="./img/img5.png" alt="img" class="block3__img">
+                            <div class="block3__plate d-flex align-items-center">
+                                <p class="block3__desc ">Около Пафоса находится по легенде место
+                                    рождения богини Афродиты.</p>
+                            </div>
+                        </div>
+                        <div class="block3__imgSlide d-flex flex-wrap">
+                            <img src="./img/img5.1.png" alt="img" class="block3__img">
+                            <div class="block3__plate d-flex align-items-center">
+                                <p class="block3__desc"> В Ларнаке находится монастырь, где похоронен Святой Лазарь,
+                                    воскрешенный Иисусом Христом.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="block3__imgSlide d-flex flex-wrap">
+                            <img src="./img/img5.2.png" alt="img" class="block3__img">
+                            <div class="block3__plate d-flex align-items-center">
+                                <p class="block3__desc">История Кипра богата и насыщенна, поэтому любознательные туристы
+                                    найдут здесь много диковинных мест.</p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+
+                <!-- <div class="container">
                     <div class="block3__plate">
                         <div class="block3__slider slider d-flex justify-content-between align-items-center">
                             <div class="slider__nav">
@@ -177,7 +224,7 @@
                                         src="./img/img12.png" alt=""></button>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center">
+                         <div class="d-flex align-items-center">
                             <p class="block3__desc ">Около Пафоса находится по легенде место
                                 рождения богини Афродиты</p>
                             <p class="block3__desc"> В Ларнаке находится монастырь, где похоронен Святой Лазарь,
@@ -185,9 +232,9 @@
                             </p>
                             <p class="block3__desc">История Кипра богата и насыщенна, поэтому любознательные туристы
                                 найдут здесь много диковинных мест</p>
-                        </div>
-                    </div>
+                        </div> 
                 </div>
+                </div>-->
             </section>
             <section class="block4 " id="block4">
                 <div class="container">
@@ -321,7 +368,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-4">
-
                     <div class="header__logo logo">
                         <a href="#" class="logo__link">
                             <img src="./img/Logo.png" alt="logo" class="logo__img">
@@ -342,60 +388,60 @@
                         <p class="contact__lead"><a href="mailto:info@patciasdevelopers.com"
                                 class="contact__link">info@patciasdevelopers.com</a>
                         </p>
-
                     </div>
-
                 </div>
                 <div class="col-sm-12 col-md-8">
-
-                    <div class="footer__map">
-                        <img src="./img/img10.png" class="footer__map--img" alt="map">
-                    </div>
-
+                    <div class="map" id="map"></div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="footer__nav d-flex justify-content-between">
-                <div class="nav nav__footer d-lg-block">
+            <div class="container">
+                <div class="footer__nav d-flex justify-content-between">
+                    <div class="nav nav__footer d-lg-block">
 
-                    <ul class="nav__list list nav__list">
-                        <li class="nav__item">
-                            <a href="index.html#block1" class="nav__link nav__link--footer">Главная</a></li>
-                        <li class="nav__item">
-                            <a href="index.html#block2" class="nav__link nav__link--footer">О компании</a></li>
-                        <li class="nav__item">
-                            <a href="index.html#block3" class="nav__link nav__link--footer">Недвижимость</a></li>
-                        <li class="nav__item">
-                            <a href="index.html#block4" class="nav__link nav__link--footer">Проекты</a></li>
-                        <li class="nav__item">
-                            <a href="index.html#block5" class="nav__link nav__link--footer">Жизнь на Кипре</a></li>
-                        <li class="nav__item">
-                            <a href="index.html#block6" class="nav__link nav__link--footer">Новости</a></li>
-                        <li class="nav__item">
-                            <a href="index.html#footer" class="nav__link nav__link--footer">Контакты</a></li>
-                    </ul>
-                </div>
-                <div class="copyright d-flex">
-                    <a href="#">
-                        <p class="copyright__text">Patsias 2017 &#169;</p>
-                    </a>
-                    <div class="copyright__top"><a href="index.html#logo" class="copyright__top">
+                        <ul class="nav__list list nav__list">
+                            <li class="nav__item">
+                                <a href="index.html#block1" class="nav__link nav__link--footer">Главная</a></li>
+                            <li class="nav__item">
+                                <a href="index.html#block2" class="nav__link nav__link--footer">О компании</a></li>
+                            <li class="nav__item">
+                                <a href="index.html#block3" class="nav__link nav__link--footer">Недвижимость</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="index.html#block4" class="nav__link nav__link--footer">Проекты</a></li>
+                            <li class="nav__item">
+                                <a href="index.html#block5" class="nav__link nav__link--footer">Жизнь на Кипре</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="index.html#block6" class="nav__link nav__link--footer">Новости</a></li>
+                            <li class="nav__item">
+                                <a href="index.html#footer" class="nav__link nav__link--footer">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright d-flex">
+                        <a href="#">
+                            <p class="copyright__text">Patsias 2017 &#169;</p>
+                        </a>
+                        <div class="copyright__top">
                             <div class="copyright__icon-form d-flex d-flex justify-content-center align-items-center ">
                                 <i class="fas fa-arrow-up copyright__icon "></i>
                             </div>
-                        </a>
-
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/gallery.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQDEK_bp8E3TJz1Sg1VMqF7jn8J3Z7Haw"> </script>
+    <script src="./js/map.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/gallery.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/nav.js"></script>
     <script src="https://kit.fontawesome.com/0b79355df0.js" crossorigin="anonymous"></script>
+
+
 
 </body>
 

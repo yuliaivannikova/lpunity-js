@@ -63,6 +63,16 @@
     border-right: 1px solid #b98b36;
     color: #575c5f; }
 
+@media screen and (max-width: 992px) {
+  .slider__dots {
+    top: -6%; }
+  .block__7 {
+    max-width: 100%; } }
+
+@media screen and (max-width: 575px) {
+  .slider__dots {
+    top: -13%; } }
+
 button[role=tab] {
   color: #D1D2D3;
   font-family: "Myriad Pro", sans-serif;

@@ -14,17 +14,17 @@ window.onload = function () {
 
 
 
-    var images2 = document.querySelectorAll('.block3__img');
+    // var images2 = document.querySelectorAll('.block3__imgSlide');
 
-    var slider2 = new Slider(images2);
-    document.querySelector('.slider__arrow--block3-prev').onclick = function () {
-        slider2.prev();
-    }
+    // var slider2 = new Slider(images2);
+    // document.querySelector('.slider__arrow--block3-prev').onclick = function () {
+    //     slider2.prev();
+    // }
 
-    var slider2 = new Slider(images2);
-    document.querySelector('.slider__arrow--block3-next').onclick = function () {
-        slider2.next();
-    }
+    // var slider2 = new Slider(images2);
+    // document.querySelector('.slider__arrow--block3-next').onclick = function () {
+    //     slider2.next();
+    // }
 
 
 

@@ -6,3 +6,9 @@
     padding-bottom: 12px; }
   .header__bg {
     background-color: #F8F9FB; }
+
+@media screen and (max-width: 767px) {
+  .header__bg {
+    background-color: transparent; }
+  .header {
+    padding-bottom: 0; } }

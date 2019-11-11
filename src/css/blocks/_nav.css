@@ -100,38 +100,63 @@
   display: none; }
 
 @media screen and (max-width: 991px) {
-  .nav .nav__list {
-    overflow: hidden;
-    z-index: 1;
-    padding-top: 0;
-    height: 0;
-    -webkit-transition: ease .3s;
-    -o-transition: ease .3s;
-    transition: ease .3s;
-    background-color: white;
-    border: 0.4px solid #262626;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border: none; }
-  .nav__checkbox:checked + .nav__burger + .nav__list {
-    display: block;
-    padding-top: 145px;
-    height: 397px; }
-  .nav .nav__item {
-    margin: 0;
-    border: 0.4px solid #a29c9b; }
-  .nav .nav__link {
-    color: #B38124;
-    line-height: 34px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; } }
+  .nav__list {
+    display: none; } }
 
 .header__logo {
   position: relative;
   z-index: 2; }
+
+.nav__close {
+  position: absolute;
+  z-index: 20000;
+  right: 27px;
+  top: 4px; }
+
+.nav__barlist {
+  -webkit-transition: ease .3s;
+  -o-transition: ease .3s;
+  transition: ease .3s;
+  background-color: white;
+  border: 0.4px solid #262626;
+  width: 100%;
+  border: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%); }
+  .nav__barlist--active {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    top: 30px;
+    -webkit-transition: ease .7s;
+    -o-transition: ease .7s;
+    transition: ease .7s; }
+
+.nav__baritem {
+  margin: 0; }
+
+.nav__barlink {
+  line-height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #A29C9B;
+  -webkit-transition: ease .3s;
+  -o-transition: ease .3s;
+  transition: ease .3s; }
+  .nav__barlink:hover {
+    color: #B38124; }
+
+@media screen and (max-width: 767px) {
+  .nav__burger {
+    position: absolute;
+    right: 27px;
+    top: 36px; } }

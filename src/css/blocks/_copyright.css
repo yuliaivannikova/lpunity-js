@@ -15,4 +15,5 @@
     height: 44px;
     background-color: #b98b36; }
   .copyright__top {
-    margin-top: -20px; }
+    margin-top: -20px;
+    cursor: pointer; }

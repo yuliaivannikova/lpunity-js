@@ -91,6 +91,7 @@
         .block4__img {
             position: relative;
             top: 0;
+            margin-left: -18px;
         }
 
         .block4__desc {
@@ -164,6 +165,10 @@
         padding-bottom: 40px;
     }
 
+    .block4:before {
+        display: none;
+
+    }
 }
 
 .block4:before {
