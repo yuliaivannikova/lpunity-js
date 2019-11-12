@@ -3274,6 +3274,11 @@ html {
     right: 27px;
     top: 36px; } }
 
+@media screen and (max-width: 575px) {
+  .nav__barlink {
+    line-height: 45px;
+    font-size: 17px; } }
+
 .header {
   padding-top: 31px;
   padding-bottom: 25px; }

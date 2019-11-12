@@ -157,3 +157,8 @@
     position: absolute;
     right: 27px;
     top: 36px; } }
+
+@media screen and (max-width: 575px) {
+  .nav__barlink {
+    line-height: 47px;
+    font-size: 19px; } }
