@@ -3200,21 +3200,6 @@ html {
   z-index: 2;
   position: relative; }
 
-.nav__checkbox {
-  display: none; }
-
-.nav__checkbox:checked + .nav__burger > .nav__times {
-  display: block; }
-
-.nav__checkbox + .nav__burger > .nav__times {
-  display: none; }
-
-.nav__checkbox + .nav__burger > .nav__icon {
-  display: block; }
-
-.nav__checkbox:checked + .nav__burger > .nav__icon {
-  display: none; }
-
 @media screen and (max-width: 991px) {
   .nav__list {
     display: none; } }
@@ -3238,12 +3223,23 @@ html {
   width: 100%;
   border: none;
   position: absolute;
+  height: 100vh;
   left: 0;
   top: 0;
   z-index: 99;
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
-  transform: translateY(-100%); }
+  transform: translateY(-100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
   .nav__barlist--active {
     -webkit-transform: translateY(0%);
     -ms-transform: translateY(0%);
@@ -3257,7 +3253,7 @@ html {
   margin: 0; }
 
 .nav__barlink {
-  line-height: 34px;
+  line-height: 86px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3267,7 +3263,8 @@ html {
   color: #A29C9B;
   -webkit-transition: ease .3s;
   -o-transition: ease .3s;
-  transition: ease .3s; }
+  transition: ease .3s;
+  font-size: 25px; }
   .nav__barlink:hover {
     color: #B38124; }
 
@@ -3549,11 +3546,13 @@ html {
   background-color: #f8f9fb; }
   .block3__imgSlide {
     max-width: 100%; }
+  .block3__img {
+    max-width: 100%; }
   .block3__plate {
+    margin-right: 50px;
     width: 425px;
     height: 116px;
     background-color: white;
-    margin-left: 600px;
     padding: 0 34px; }
   .block3__desc {
     color: #575c5f;
@@ -3580,19 +3579,23 @@ html {
     .block3 .block3__slider {
       padding: 5px; } }
 
-.block3__gallery > .slider__dots {
-  top: 538px;
-  left: 0;
-  margin-left: 600px;
+.blockForSlide {
   width: 425px;
   height: 70px;
   background-color: #f8f9fb;
   padding: 23px;
-  padding-left: 70px; }
+  padding-left: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+  margin-top: -185px;
+  z-index: 333;
+  position: relative; }
 
 .slider1-next.slick-arrow {
-  top: 78%;
-  left: 84%;
+  top: 75%;
+  left: 89%;
   font-size: 19px;
   position: absolute;
   z-index: 555;
@@ -3612,8 +3615,8 @@ html {
     color: #717678; }
 
 .slider1-prev.slick-arrow {
-  top: 78%;
-  left: 80%;
+  top: 75%;
+  left: 85%;
   font-size: 19px;
   position: absolute;
   z-index: 555;
@@ -3627,13 +3630,14 @@ html {
 
 @media screen and (max-width: 1199px) {
   .block3__gallery > .slider__dots {
-    top: 450px; }
-  .block3__plate {
-    margin-top: -100px; } }
+    top: 450px; } }
 
 @media screen and (max-width: 991px) {
   .block3__plate {
-    margin-top: 0px; } }
+    margin: 0px;
+    width: 100%; }
+  .newblock {
+    width: 100%; } }
 
 @media screen and (max-width: 991px) {
   .slider1-next.slick-arrow {
@@ -3650,7 +3654,7 @@ html {
 @media screen and (max-width: 767px) {
   .slider1-next.slick-arrow {
     top: 50%;
-    left: 93%;
+    left: 90%;
     font-size: 50px; }
     .slider1-next.slick-arrow:after {
       display: none; }
@@ -4163,7 +4167,7 @@ html {
   font-weight: 400;
   display: block; }
 
-.slider__dots {
+.block7__slider > .slider__dots {
   color: #a29c9b;
   font-family: "Myriad Pro", sans-serif;
   font-size: 16px;
@@ -4175,18 +4179,18 @@ html {
   position: absolute;
   top: -12%;
   left: 46%; }
-  .slider__dots.slick-active button:before {
+  .block7__slider > .slider__dots.slick-active button:before {
     border-right: 1px solid #b98b36;
     color: #575c5f; }
 
 @media screen and (max-width: 992px) {
-  .slider__dots {
+  .block7__slider > .slider__dots {
     top: -6%; }
   .block__7 {
     max-width: 100%; } }
 
 @media screen and (max-width: 575px) {
-  .slider__dots {
+  .block7__slider > .slider__dots {
     top: -13%; } }
 
 button[role=tab] {

@@ -47,7 +47,7 @@
   font-weight: 400;
   display: block; }
 
-.slider__dots {
+.block7__slider > .slider__dots {
   color: #a29c9b;
   font-family: "Myriad Pro", sans-serif;
   font-size: 16px;
@@ -59,18 +59,18 @@
   position: absolute;
   top: -12%;
   left: 46%; }
-  .slider__dots.slick-active button:before {
+  .block7__slider > .slider__dots.slick-active button:before {
     border-right: 1px solid #b98b36;
     color: #575c5f; }
 
 @media screen and (max-width: 992px) {
-  .slider__dots {
+  .block7__slider > .slider__dots {
     top: -6%; }
   .block__7 {
     max-width: 100%; } }
 
 @media screen and (max-width: 575px) {
-  .slider__dots {
+  .block7__slider > .slider__dots {
     top: -13%; } }
 
 button[role=tab] {

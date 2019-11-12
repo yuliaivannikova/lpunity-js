@@ -61,9 +61,21 @@ $(document).ready(function () {
           arrows: false,
           centerMode: false,
           slidesToShow: 1,
-
+          dots: false,
         }
       }
     ]
   });
+});
+
+
+// block3__gallery slider__dots.addClass('result');
+
+$(function () {
+  $('.block3__gallery >.slider__dots').addClass('blockForSlide');
+});
+
+
+$(function () {
+  $('.block3__plate, .blockForSlide').wrap('<div class="newblock">');
 });
