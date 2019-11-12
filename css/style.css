@@ -3276,8 +3276,8 @@ html {
 
 @media screen and (max-width: 575px) {
   .nav__barlink {
-    line-height: 45px;
-    font-size: 17px; } }
+    line-height: 47px;
+    font-size: 19px; } }
 
 .header {
   padding-top: 31px;
