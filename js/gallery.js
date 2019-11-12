@@ -12,8 +12,6 @@ window.onload = function () {
         slider.next();
     }
 
-
-
     // var images2 = document.querySelectorAll('.block3__imgSlide');
 
     // var slider2 = new Slider(images2);
@@ -26,9 +24,6 @@ window.onload = function () {
     //     slider2.next();
     // }
 
-
-
-
 }
 
 function Slider(images) {
@@ -37,20 +32,58 @@ function Slider(images) {
 
     this.prev = function () {
         this.images[this.i].style.display = 'none';
+
+
         this.i--;
         if (this.i < 0) {
             this.i = this.images.length - 1;
         }
         this.images[this.i].style.display = 'block';
+
+
     }
 
     this.next = function () {
         this.images[this.i].style.display = 'none';
+
+
         this.i++;
         if (this.i >= images.length) {
             this.i = 0;
         }
         this.images[this.i].style.display = 'block';
 
+
+
     }
 }
+
+
+
+
+
+// var images = document.querySelectorAll('.block4__img');
+// var prev = document.querySelector('.slider__arrow--prev');
+// var next = document.querySelector('.slider__arrow--next');
+// var i = 0;
+
+// prev.onclick = function () {
+//     images[i].className = '';
+//     i--;
+
+//     if (i < 0) {
+//         i = images.length - 1;
+//     }
+//     images[i].className = 'block4__img--showed';
+// }
+
+
+// next.onclick = function () {
+//     images[i].className = '';
+//     i++;
+
+//     if (i >= images.length) {
+//         i = 0;
+//     }
+//     images[i].className = 'block4__img--showed';
+// }

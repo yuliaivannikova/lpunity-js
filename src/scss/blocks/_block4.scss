@@ -87,6 +87,14 @@
 
     }
 
+    @media screen and (max-width: 1199px) {
+        .block4__img {
+
+            margin-left: 0;
+        }
+
+    }
+
     @media screen and (max-width: 991px) {
         .block4__img {
             position: relative;
@@ -194,3 +202,7 @@
     left: 100%;
     cursor: pointer;
 }
+
+// .block4__gallery>img[style~="display"block] li[class~="a"] {
+//     color: red;
+// }

@@ -63,6 +63,9 @@
     padding-right: 40px;
     position: relative;
     bottom: 37px; }
+  @media screen and (max-width: 1199px) {
+    .block4 .block4__img {
+      margin-left: 0; } }
   @media screen and (max-width: 991px) {
     .block4 .block4__img {
       position: relative;

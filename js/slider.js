@@ -79,3 +79,31 @@ $(function () {
 $(function () {
   $('.block3__plate, .blockForSlide').wrap('<div class="newblock">');
 });
+
+
+// $(function () {
+//   do {
+//     alert('dsfsdfsd')
+
+//   } while ($slides.removeClass('slick-current'));
+// });
+
+
+// if (_.$slides) {
+
+//   _.$slides
+//     .removeClass('slick-slide slick-active slick-center slick-visible slick-current')
+//     .removeAttr('aria-hidden')
+//     .removeAttr('data-slick-index')
+//     .each(function () {
+//       $(this).attr('style', $(this).data('originalStyling'));
+//     });
+
+//   _.$slideTrack.children(this.options.slide).detach();
+
+//   _.$slideTrack.detach();
+
+//   _.$list.detach();
+
+//   _.$slider.append(_.$slides);
+// }
