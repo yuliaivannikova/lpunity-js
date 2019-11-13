@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  $(".single-item").slick();
   $(".my-slider").slick({
     centerMode: true,
     centerPadding: "98px",
@@ -37,6 +36,25 @@ $(document).ready(function () {
 });
 
 
+
+$(document).ready(function () {
+  $('.block4__gallery').slick({
+    nextArrow: '<i class="material-icons slider2-next"> arrow_forward</i>',
+    prevArrow: '<i class="material-icons slider2-prev"> arrow_back</i>',
+    slidesToShow: 1,
+  })
+});
+
+
+$(function () {
+  $('.block4__plate, .slider2-next, .slider2-prev').wrap('<div class="slid4">');
+});
+
+
+
+
+
+
 $(document).ready(function () {
   $(".block3__gallery").slick({
     slidesToShow: 1,
@@ -69,7 +87,7 @@ $(document).ready(function () {
 });
 
 
-// block3__gallery slider__dots.addClass('result');
+
 
 $(function () {
   $('.block3__gallery >.slider__dots').addClass('blockForSlide');
@@ -79,31 +97,3 @@ $(function () {
 $(function () {
   $('.block3__plate, .blockForSlide').wrap('<div class="newblock">');
 });
-
-
-// $(function () {
-//   do {
-//     alert('dsfsdfsd')
-
-//   } while ($slides.removeClass('slick-current'));
-// });
-
-
-// if (_.$slides) {
-
-//   _.$slides
-//     .removeClass('slick-slide slick-active slick-center slick-visible slick-current')
-//     .removeAttr('aria-hidden')
-//     .removeAttr('data-slick-index')
-//     .each(function () {
-//       $(this).attr('style', $(this).data('originalStyling'));
-//     });
-
-//   _.$slideTrack.children(this.options.slide).detach();
-
-//   _.$slideTrack.detach();
-
-//   _.$list.detach();
-
-//   _.$slider.append(_.$slides);
-// }
