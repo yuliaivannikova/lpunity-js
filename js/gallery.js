@@ -1,3 +1,6 @@
+// TODO слайдер на js
+
+
 // window.onload = function () {
 
 //     var images = document.querySelectorAll('.block4__img');
