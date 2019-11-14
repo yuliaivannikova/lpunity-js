@@ -37,6 +37,9 @@ $(document).ready(function () {
 
 
 
+$('.slick-current').fadeIn();
+
+
 $(document).ready(function () {
   $('.block4__gallery').slick({
     nextArrow: '<i class="material-icons slider2-next"> arrow_forward</i>',

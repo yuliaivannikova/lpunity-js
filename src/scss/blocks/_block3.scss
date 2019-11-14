@@ -188,23 +188,23 @@
 .block3__gallery>.slick-list>.slick-track>.slick-slide:not(.slick-current)>img {
     transition-property: opacity;
     opacity: 0;
-    transition: ease 2s;
+    transition: ease 1s;
 }
 
 .block3__gallery>.slick-list>.slick-track>.slick-slide.slick-current>img {
 
     opacity: 1;
-    transition: ease 2s;
+    transition: ease 3s;
 }
 
 .block3__gallery>.slick-list>.slick-track>.slick-slide:not(.slick-current)>.newblock {
     transition-property: opacity;
     opacity: 0;
-    transition: ease 2s;
+    transition: ease 1s;
 }
 
 .block3__gallery>.slick-list>.slick-track>.slick-slide.slick-current>.newblock {
 
     opacity: 1;
-    transition: ease 2s;
+    transition: ease 3s;
 }

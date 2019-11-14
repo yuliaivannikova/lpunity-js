@@ -53,7 +53,6 @@
 
     &__link:hover {
         color: #575c5f;
-        transition: ease 0.3s;
         font-size: 16px;
         font-weight: 600;
         line-height: 20px;
@@ -85,7 +84,7 @@
 }
 
 .slick-slide img {
-    transition: ease 0.8s;
+    transition: ease 1.5s;
 }
 
 .block7__img {

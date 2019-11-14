@@ -126,27 +126,27 @@
   -o-transition-property: opacity;
   transition-property: opacity;
   opacity: 0;
-  -webkit-transition: ease 2s;
-  -o-transition: ease 2s;
-  transition: ease 2s; }
+  -webkit-transition: ease 1s;
+  -o-transition: ease 1s;
+  transition: ease 1s; }
 
 .block3__gallery > .slick-list > .slick-track > .slick-slide.slick-current > img {
   opacity: 1;
-  -webkit-transition: ease 2s;
-  -o-transition: ease 2s;
-  transition: ease 2s; }
+  -webkit-transition: ease 3s;
+  -o-transition: ease 3s;
+  transition: ease 3s; }
 
 .block3__gallery > .slick-list > .slick-track > .slick-slide:not(.slick-current) > .newblock {
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
   opacity: 0;
-  -webkit-transition: ease 2s;
-  -o-transition: ease 2s;
-  transition: ease 2s; }
+  -webkit-transition: ease 1s;
+  -o-transition: ease 1s;
+  transition: ease 1s; }
 
 .block3__gallery > .slick-list > .slick-track > .slick-slide.slick-current > .newblock {
   opacity: 1;
-  -webkit-transition: ease 2s;
-  -o-transition: ease 2s;
-  transition: ease 2s; }
+  -webkit-transition: ease 3s;
+  -o-transition: ease 3s;
+  transition: ease 3s; }
