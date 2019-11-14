@@ -91,13 +91,6 @@
     top: 450px; } }
 
 @media screen and (max-width: 991px) {
-  .block3__plate {
-    margin: 0px;
-    width: 100%; }
-  .newblock {
-    width: 100%; } }
-
-@media screen and (max-width: 991px) {
   .slider1-next.slick-arrow {
     top: 50%;
     left: 91%;
@@ -107,7 +100,12 @@
   .slider1-prev.slick-arrow {
     top: 50%;
     left: 0;
-    font-size: 80px; } }
+    font-size: 80px; }
+  .block3__plate {
+    margin: 0px;
+    width: 100%; }
+  .newblock {
+    width: 100%; } }
 
 @media screen and (max-width: 767px) {
   .slider1-next.slick-arrow {

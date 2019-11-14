@@ -116,6 +116,20 @@
 
         }
 
+        .block4__plate {
+
+            width: 340px;
+        }
+
+        .block4__title::before {
+            left: 0;
+        }
+
+        .block4__desc {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
     }
 
     @media screen and (max-width: 575px) {
@@ -139,27 +153,6 @@
     }
 
 
-    @media screen and (max-width: 991px) {
-
-        .block4__plate {
-
-            width: 340px;
-        }
-
-        .block4__title::before {
-            left: 0;
-        }
-
-        .block4__desc {
-            padding-right: 0;
-            padding-left: 0;
-        }
-
-        // .block4__img {
-        //     top: 0;
-        //     left: 17px;
-        // }
-    }
 
 
 }
